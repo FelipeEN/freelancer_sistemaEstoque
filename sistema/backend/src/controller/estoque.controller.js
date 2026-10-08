@@ -13,7 +13,8 @@ async function criarProduto(req,res){
 
         if(
             nome.trim() === ""
-            || quantidade.trim() === "" 
+            || quantidade === null||
+            quantidade === undefined 
             || topico.trim() === ""){
             return res.status(400).json({
                 mensagem : "Preencha todos os campos"
