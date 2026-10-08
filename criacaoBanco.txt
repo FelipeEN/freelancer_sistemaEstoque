@@ -1,0 +1,6 @@
+CREATE TABLE estoque (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	nome_produto VARCHAR(250),
+	quantidade_produto INT,
+	topico VARCHAR (100) UNIQUE
+);

@@ -1,0 +1,30 @@
+Seu Didi deseja um sistema local onde ele consiga administrar o seu estoque.
+
+O sistema de estoque deve permitir:
+
+. Adicionar
+. Excluir
+. Editar
+. Listar
+. Pesquisar por Filtros 
+. Informar que o produto deve ser abastecido assim que a quantidade do produto seja menor ou igual a 30 
+
+. O banco de dados do Sistema será feito no Mysql.
+
+. O sistema terá a pagina de login para que aja segurança na manipulação do seu estoque 
+
+Tecnologias que usarei:
+. NodeJS
+. ReactJs
+. SQL
+. JavaScript
+. HTML 5
+. CSS
+
+Observações:
+. como o mercado de seu Didi é um "mercadinho" ele não possui
+um sistema de caixa. Ele irá fazer o controle de estoque manualmente,
+assim que ele vender um produto ele irá editar no sistema de estoque.
+
+. Futuramente irei fazer esse sistema de caixa já conectado com o estoque
+e oferecer esse serviço a ele para que automatize o seu trabalho. 
